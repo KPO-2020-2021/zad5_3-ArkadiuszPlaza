@@ -1,0 +1,296 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Cuboid.hh
+Solid.hh
+../include/Solid.hh
+
+../include/Dron.hh
+Cuboid.hh
+../include/Cuboid.hh
+Prism.hh
+../include/Prism.hh
+lacze_do_gnuplota.hh
+../include/lacze_do_gnuplota.hh
+Scene_Object.hh
+../include/Scene_Object.hh
+unistd.h
+-
+
+../include/Matrix.hh
+iostream
+-
+Vector.hh
+../include/Vector.hh
+cmath
+-
+
+../include/Matrix3x3.hh
+iostream
+-
+Matrix.hh
+../include/Matrix.hh
+
+../include/Mount.hh
+Solid.hh
+../include/Solid.hh
+
+../include/Plateau.hh
+Solid.hh
+../include/Solid.hh
+
+../include/Prism.hh
+Solid.hh
+../include/Solid.hh
+
+../include/Ridge.hh
+Solid.hh
+../include/Solid.hh
+
+../include/Scene.hh
+iostream
+-
+iomanip
+-
+memory
+-
+fstream
+-
+list
+-
+Plateau.hh
+../include/Plateau.hh
+Ridge.hh
+../include/Ridge.hh
+Mount.hh
+../include/Mount.hh
+Prism.hh
+../include/Prism.hh
+lacze_do_gnuplota.hh
+../include/lacze_do_gnuplota.hh
+Dron.hh
+../include/Dron.hh
+Surface.hh
+../include/Surface.hh
+Scene_Object.hh
+../include/Scene_Object.hh
+
+../include/Scene_Object.hh
+string
+-
+memory
+-
+
+../include/Solid.hh
+Vector3d.hh
+../include/Vector3d.hh
+Matrix3x3.hh
+../include/Matrix3x3.hh
+fstream
+-
+vector
+-
+memory
+-
+Scene_Object.hh
+../include/Scene_Object.hh
+
+../include/Surface.hh
+Vector3d.hh
+../include/Vector3d.hh
+Matrix3x3.hh
+../include/Matrix3x3.hh
+fstream
+-
+vector
+-
+
+../include/Vector.hh
+iostream
+-
+cmath
+-
+
+../include/Vector3d.hh
+Vector.hh
+../include/Vector.hh
+iomanip
+-
+
+../include/example.h
+../tests/doctest/doctest.h
+../tests/doctest/doctest.h
+
+../include/lacze_do_gnuplota.hh
+string
+-
+list
+-
+vector
+-
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Cuboid.cpp
+Cuboid.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Cuboid.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Dron.cpp
+Dron.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Dron.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Matrix3x3.cpp
+Matrix3x3.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Matrix3x3.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Mount.cpp
+Mount.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Mount.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Plateau.cpp
+Plateau.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Plateau.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Prism.cpp
+Prism.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Prism.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Ridge.cpp
+Ridge.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Ridge.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Scene.cpp
+Scene.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Scene.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Solid.cpp
+Solid.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Solid.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Surface.cpp
+Surface.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Surface.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Vector3d.cpp
+Vector3d.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/Vector3d.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/example.cpp
+example.h
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/example.h
+../tests/doctest/doctest.h
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/tests/doctest/doctest.h
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/lacze_do_gnuplota.cpp
+cstdio
+-
+cstring
+-
+cmath
+-
+cstdlib
+-
+iostream
+-
+sys/stat.h
+-
+unistd.h
+-
+fcntl.h
+-
+sstream
+-
+fstream
+-
+limits
+-
+lacze_do_gnuplota.hh
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/src/lacze_do_gnuplota.hh
+
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/tests/doctest/doctest.h
+signal.h
+-
+iosfwd
+-
+cstddef
+-
+ostream
+-
+ciso646
+-
+type_traits
+-
+doctest_fwd.h
+/home/arek/Pulpit/dron github/zad5_3-ArkadiuszPlaza/tests/doctest/doctest_fwd.h
+ctime
+-
+cmath
+-
+climits
+-
+math.h
+-
+new
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+limits
+-
+utility
+-
+fstream
+-
+sstream
+-
+iostream
+-
+algorithm
+-
+iomanip
+-
+vector
+-
+atomic
+-
+mutex
+-
+set
+-
+map
+-
+exception
+-
+stdexcept
+-
+csignal
+-
+cfloat
+-
+cctype
+-
+cstdint
+-
+sys/types.h
+-
+unistd.h
+-
+sys/sysctl.h
+-
+AfxWin.h
+-
+windows.h
+-
+io.h
+-
+sys/time.h
+-
+unistd.h
+-
+
